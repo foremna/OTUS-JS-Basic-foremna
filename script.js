@@ -92,3 +92,32 @@ function showMonth () {
 }
 
 showMonth();
+
+
+// Lesson 1. Homework 3.
+// 1.Вывести в консоль сумму всех целых чисел от 50 до
+// 100
+
+function showIntegerNumbers () {
+    for (let i = 50; i < 101; i++) {
+        console.log(i + i);
+    }
+}
+
+showIntegerNumbers();
+
+// 2.Вывести в консоль таблицу умножения на 7.
+// 7 x 1 = 7
+// 7 x 2 = 14
+// …
+// 7 x 9 = 63
+
+function multiplicationTable () {
+    for (let i = 0; i <= 9; i++) {
+        let multiplyNum = 7;
+
+        console.log(i + " " + "x" + " " + multiplyNum + " " + "=" + " " + i * multiplyNum);
+    }
+}
+
+multiplicationTable();
