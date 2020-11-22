@@ -28,3 +28,16 @@ function concatStr () {
 
 concatStr();
 
+
+// Lesson 1. Homework 2.
+// 1.В переменных a и b хранятся числа. Вывести в
+// консоль наибольшее из них.
+
+function maxNumber () {
+    let a = 20;
+    let b = 77;
+
+    console.log(Math.max(a, b));
+}
+
+maxNumber();
