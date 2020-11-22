@@ -99,7 +99,7 @@ showMonth();
 // 100
 
 function showIntegerNumbers () {
-    for (let i = 50; i < 101; i++) {
+    for (let i = 50; i <= 100; i++) {
         console.log(i + i);
     }
 }
